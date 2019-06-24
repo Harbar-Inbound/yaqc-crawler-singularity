@@ -2,4 +2,4 @@ Bootstrap: docker
 From: yaqc/crawler:develop
 
 %apprun crawler
-exec python /app/crawler.py
+exec python3 /app/crawler.py
