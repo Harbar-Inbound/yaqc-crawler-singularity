@@ -15,7 +15,7 @@
 #
 
 Bootstrap: docker
-From: yaqc/crawler:develop
+From: yaqc/crawler:slurm
 
 %apprun crawler
 exec python3 /app/crawler.py
